@@ -12,8 +12,12 @@ int main()
     else {
         if (i%30){
             int h =((i/30 + 1)*30);
-            printf ("%d元", i);
+            printf ("%d元", h);
+        }
+        else {
+            printf("%d元",t);
         }
     }
+    
     return 0;
 }
