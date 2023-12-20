@@ -3,13 +3,11 @@
 int main()
 {
     int n = 7;
-    int k, i, j;
+    int k, i;
     for (k=0 ; k<n ; k++ ){
-        for (j=0 ; j < n - k ; j++){
-            printf(" ");
-        }
-        for (i=0 ; i<8 - n ; i++){
-            printf("%d ",8 - n);
+        printf("%*d",n,8-n);
+        for (i=1 ; i<8 - n ; i++){
+            printf("%*d",2,8-n);
         }
         printf("\n");
         n--;
